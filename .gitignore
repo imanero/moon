@@ -1,0 +1,22 @@
+# user
+.vscode
+
+# mta
+core.dll
+net.dll
+pthread.dll
+xmll.dll
+banlist.xml
+vehiclecolors.conf
+*.exe
+*.db
+*.log
+*.db-journal
+/mods/deathmatch/logs
+/mods/deathmatch/dumps
+/mods/deathmatch/resource-cache
+mods/deathmatch/dbconmy.dll
+mods/deathmatch/deathmatch.dll
+mods/deathmatch/libmysql.dll
+mods/deathmatch/lua5.1.dll
+mods/deathmatch/pcre3.dll
