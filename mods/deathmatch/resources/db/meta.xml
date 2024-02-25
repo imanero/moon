@@ -1,0 +1,17 @@
+<meta>
+    <info author="Iman Mokhtarnia" version="1.0.0" name="db" description="create db connection and exports functions like exec,query,..." type="script" />
+    <script src="mysql.lua" type="server" />
+
+    <!-- DB Settings ( note: please be sure to fill db information correctly )-->
+    <settings>
+        <setting name="DB_CHARSET" value="utf8" />
+        <setting name="DB_TYPE" value="mysql" />
+        <setting name="DB_NAME" value="moon" />
+        <setting name="DB_HOST" value="127.0.0.1" />
+        <setting name="DB_PORT" value="3306" />
+        <setting name="DB_USERNAME" value="root" />
+        <setting name="DB_PASSWORD" value="" />
+    </settings>
+
+    <export function="getConnection" type="server" />
+</meta>

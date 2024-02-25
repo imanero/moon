@@ -17,6 +17,7 @@ vehiclecolors.conf
 /dumps
 mods/deathmatch/logs
 mods/deathmatch/dumps
+mods/deathmatch/backups
 mods/deathmatch/resource-cache
 mods/deathmatch/dbconmy.dll
 mods/deathmatch/deathmatch.dll
